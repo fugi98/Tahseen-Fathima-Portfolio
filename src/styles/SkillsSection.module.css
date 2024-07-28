@@ -1,0 +1,158 @@
+.skillsSection {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.title::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #00ffff;
+  margin-top: 0.5rem;
+}
+
+.skillsContent {
+  display: flex;
+  gap: 2rem;
+}
+
+.column {
+  flex: 1;
+}
+
+.category {
+  margin-bottom: 2rem;
+}
+
+.categoryIcon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: #00ffff;
+}
+
+.category h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.skill {
+  background-color: #33333300;
+  border: 1px solid whitesmoke;
+  padding: 6vh 5vh;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* Different border-radius styles */
+.skillRound {
+  border-radius: 50%;
+}
+
+.skillRounder {
+  border-radius: 12px;
+}
+
+.skillCurved {
+  border-radius: 15px 50px 15px 50px;
+}
+
+.skillEllipse {
+  border-radius: 50% 25% 50% 25%;
+}
+
+.skillSquircle {
+  border-radius: 20px;
+}
+
+.skillPill {
+  border-radius: 30px;
+}
+
+.designTools {
+  display: flex;
+  gap: 1rem;
+}
+
+.designTools img {
+  width: 40px;
+  height: 40px;
+}
+
+.rowCategories {
+  display: flex;
+  flex-direction: row; /* Ensure this stays row for all devices */
+  gap: 2rem;
+}
+
+.rowCategories .category {
+  flex: 1;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list li {
+  margin-bottom: 0.5rem;
+}
+
+.list li::before {
+  content: '✓';
+  color: #00ffff;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .skillsContent {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .skillsSection {
+    padding: 2rem 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .skill {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .skill {
+    font-size: 0.7rem; /* Adjust font size for smaller screens */
+    padding: 4vh 3vh; /* Adjust padding for smaller screens */
+  }
+
+  .skills {
+    gap: 1rem; /* Adjust gap for smaller screens */
+  }
+
+  .category h3 {
+    font-size: 1rem; /* Adjust category title font size */
+  }
+
+  .list li {
+    font-size: 0.8rem; /* Adjust list item font size */
+  }
+}

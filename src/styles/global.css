@@ -1,0 +1,17 @@
+/* styles/global.css */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", Helvetica, sans-serif !important;
+  background: #171717;
+  background: linear-gradient(184deg, rgb(60, 25, 124) 14%, rgba(159,15,26,1) 42%, rgba(88,78,96,1) 93%);
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: white;
+}
+
+/* Add other global styles here */
