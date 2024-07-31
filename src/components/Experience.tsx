@@ -61,10 +61,9 @@ const experiences: Experience[] = [
   },
 ];
 
-
 const ExperienceSection = () => {
   return (
-    <section  className={styles.experienceSection}>
+    <section className={styles.experienceSection}>
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Experience</h2>
         <div className={styles.experienceIntro}>
@@ -93,6 +92,14 @@ const ExperienceSection = () => {
             </div>
           ))}
         </div>
+        <a
+          href="/pdf/Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.resumeButton}
+        >
+         View Resume
+        </a>
       </div>
     </section>
   );

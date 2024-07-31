@@ -8,14 +8,14 @@ import Image from 'next/image';
 const AboutSection = styled.section`
   background-color: #1a1a1a;
   color: #f5f5f5;
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
   border-radius: 8px;
   margin-bottom: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
-  margin: 4.5rem;
+  max-width: auto;
+  margin: 4.5rem 4rem;
   position: relative;
 
   @media (max-width: 768px) {
@@ -27,13 +27,15 @@ const AboutSection = styled.section`
 `;
 
 const IntroTextContainer = styled.div`
-  max-width: 60%;
+  max-width: 55%;
   position: relative;
-  transform: translateX(-30px);
+  margin-right: 2rem; /* Space between content and image */
+  margin-left: 0; /* Ensure content starts from the left edge */
 
   @media (max-width: 768px) {
     max-width: 100%;
-    transform: none;
+    margin-right: 0;
+    margin-left: 0;
   }
 `;
 
@@ -98,11 +100,14 @@ const ContentSection = styled.div`
 
 const ImageContainer = styled.div`
   max-width: 30%;
+  text-align: center; /* Center the image container */
+  position: relative;
+  right: 10px;
 
   img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 20rem;
     object-fit: cover;
   }
 
@@ -113,7 +118,7 @@ const ImageContainer = styled.div`
 
 // About component
 const About = () => (
-  <AboutSection >
+  <AboutSection>
     <IntroTextContainer>
       <AboutTitle>Hey, I&apos;m Tahseen</AboutTitle>
       <IntroText>
@@ -136,7 +141,7 @@ const About = () => (
       </AboutContent>
     </IntroTextContainer>
     <ImageContainer>
-      <Image src="/images/arcade.png" alt="Abstract Design" width={500} height={300} />
+      <Image src="/images/about.jpg" alt="Abstract Design" width={700} height={500} />
     </ImageContainer>
   </AboutSection>
 );
