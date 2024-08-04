@@ -278,7 +278,7 @@ const Projects = () => (
       <div className="screenshot">
         <Image src="/images/project-3.png" alt="firstgame Screenshot" width={400} height={300} style={{ width: 'auto', height: 'auto' }} />
         <div className="button-container">
-          <ButtonLink href="https://firstgame-demo.netlify.app" target="_blank" rel="noopener noreferrer">Demo</ButtonLink>
+          <ButtonLink href="https://firstgame1.netlify.app/" target="_blank" rel="noopener noreferrer">Demo</ButtonLink>
           <ButtonLink href="https://github.com/fugi98/firstgame" target="_blank" rel="noopener noreferrer">Github</ButtonLink>
         </div>
       </div>
@@ -297,7 +297,7 @@ const Projects = () => (
       <div className="screenshot">
         <Image src="/images/project-4.png" alt="funanimepage Screenshot" width={400} height={300} style={{ width: 'auto', height: 'auto' }} />
         <div className="button-container">
-          <ButtonLink href="https://funanimepage-demo.netlify.app" target="_blank" rel="noopener noreferrer">Demo</ButtonLink>
+          <ButtonLink href="https://fun-anime-page.netlify.app/" target="_blank" rel="noopener noreferrer">Demo</ButtonLink>
           <ButtonLink href="https://github.com/fugi98/funanimepage" target="_blank" rel="noopener noreferrer">Github</ButtonLink>
         </div>
       </div>
@@ -316,7 +316,7 @@ const Projects = () => (
       <div className="screenshot">
         <Image src="/images/project-5.png" alt="Weatherforecasting-app Screenshot" width={400} height={300} style={{ width: 'auto', height: 'auto' }} />
         <div className="button-container">
-          <ButtonLink href="https://weatherforecasting-demo.netlify.app" target="_blank" rel="noopener noreferrer">Demo</ButtonLink>
+          <ButtonLink href="https://weather-forecastingapp.netlify.app/" target="_blank" rel="noopener noreferrer">Demo</ButtonLink>
           <ButtonLink href="https://github.com/fugi98/Weatherforecasting-app" target="_blank" rel="noopener noreferrer">Github</ButtonLink>
         </div>
       </div>
@@ -335,7 +335,7 @@ const Projects = () => (
       <div className="screenshot">
         <Image src="/images/project-6.png" alt="React-Crypto-Project Screenshot" width={400} height={300} style={{ width: 'auto', height: 'auto' }} />
         <div className="button-container">
-          <ButtonLink href="https://reactcrypto-demo.netlify.app" target="_blank" rel="noopener noreferrer">Demo</ButtonLink>
+          <ButtonLink href="https://blocksavvy.netlify.app/" target="_blank" rel="noopener noreferrer">Demo</ButtonLink>
           <ButtonLink href="https://github.com/fugi98/React-Crypto-Project" target="_blank" rel="noopener noreferrer">Github</ButtonLink>
         </div>
       </div>
