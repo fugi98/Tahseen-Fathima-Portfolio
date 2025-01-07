@@ -316,12 +316,12 @@ const Projects = () => (
       <div className="screenshot">
         <Image src="/images/project-5.png" alt="Weatherforecasting-app Screenshot" width={400} height={300} style={{ width: 'auto', height: 'auto' }} />
         <div className="button-container">
-          <ButtonLink href="https://weather-forecastingapp.netlify.app/" target="_blank" rel="noopener noreferrer">Demo</ButtonLink>
-          <ButtonLink href="https://github.com/fugi98/Weatherforecasting-app" target="_blank" rel="noopener noreferrer">Github</ButtonLink>
+          <ButtonLink href="https://myweatherwatch.vercel.app/" target="_blank" rel="noopener noreferrer">Demo</ButtonLink>
+          <ButtonLink href="https://github.com/fugi98/WeatherWatch" target="_blank" rel="noopener noreferrer">Github</ButtonLink>
         </div>
       </div>
       <div className="content">
-        <h3>Weatherforecasting-app</h3>
+        <h3>WeatherWatch</h3>
         <p>A weather forecasting app created using React.js.</p>
         <div className="details">
           <p><strong>Features:</strong> Current weather updates, 7-day forecasts, and location-based services.</p>
